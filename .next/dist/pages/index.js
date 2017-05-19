@@ -28,11 +28,12 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, _react2.default.createElement("a", { style: { fontSize: 20 }, __source: {
+  }, _react2.default.createElement("button", {
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, "About Page")), _react2.default.createElement("p", {
+  }, "Go to About Page")), _react2.default.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
