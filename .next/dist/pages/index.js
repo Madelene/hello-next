@@ -8,29 +8,24 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Header = require('../components/Header');
+var _MyLayout = require('../components/MyLayout.js');
 
-var _Header2 = _interopRequireDefault(_Header);
+var _MyLayout2 = _interopRequireDefault(_MyLayout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/madelenecampos/Documents/Projects/blubeta/hello-next/pages/index.js?entry';
 
 exports.default = function () {
-  return _react2.default.createElement('div', {
+  return _react2.default.createElement(_MyLayout2.default, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     }
-  }, _react2.default.createElement(_Header2.default, {
+  }, _react2.default.createElement('p', {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
-    }
-  }), _react2.default.createElement('p', {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
     }
   }, 'Hello Next.js'));
 };
